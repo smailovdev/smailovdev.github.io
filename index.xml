@@ -2,10 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
+    <link>https://colinwilson.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Feb 2024 02:16:18 +0600</lastBuildDate>
+    <atom:link href="https://colinwilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Что такое HTML</title>
+      <link>https://colinwilson.github.io/docs/parent-directory/1/</link>
+      <pubDate>Mon, 05 Feb 2024 02:01:33 +0600</pubDate>
+      <guid>https://colinwilson.github.io/docs/parent-directory/1/</guid>
+      <description>HTML (HyperText Markup Language) представляет язык разметки гипертекста, используемый преимущественно для создания документов в сети интернет. HTML начал свой путь в начале 90-х годов как примитивный язык для создания веб-страниц, и в настоящий момент уже трудно представить себе интернет без HTML. Подавляющее большинство сайтов так или иначе используют HTML.&#xA;В 2014 году официально была завершена работа над новым стандартом - HTML5, который фактически произвел революцию, привнеся в HTML много нового.</description>
+    </item>
+    <item>
+      <title>Элементы и атрибуты HTML5</title>
+      <link>https://colinwilson.github.io/docs/parent-directory/2/</link>
+      <pubDate>Mon, 05 Feb 2024 02:16:18 +0600</pubDate>
+      <guid>https://colinwilson.github.io/docs/parent-directory/2/</guid>
+      <description>Прежде чем переходить непосредственно к созданию своих веб-страниц на HTML5, рассмотрим основные строительные блоки, кирпичики, из которых состоит веб-страница.&#xA;Документ HTML5, как и любой документ HTML, состоит из элементов, а элементы состоят из тегов. Как правило, элементы имеют открывающий и закрывающий тег, которые заключаются в угловые скобки. Например:&#xA;Здесь определен элемент div, который имеет открывающий тег &amp;lt;div&amp;gt; и закрывающий тег &amp;lt;/div&amp;gt;. Между этими тегами находится содержимое элемента div. В данном случае в качестве содержимого выступает простой текст &amp;ldquo;Текст элемента div&amp;rdquo;.</description>
+    </item>
   </channel>
 </rss>
