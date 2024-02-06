@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DevCore</title>
-    <link>https://smailovdev.github.io/categories/</link>
+    <link>smailovdev.github.io/categories/</link>
     <description>Recent content in Categories on DevCore</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://smailovdev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="smailovdev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
