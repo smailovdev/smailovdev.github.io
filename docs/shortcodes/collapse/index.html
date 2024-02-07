@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="alternate" type="application/rss+xml" href="https://smailovdev.github.io/categories/index.xml" title="METANIT.COM" />
-    <link rel="canonical" href="https://smailovdev.github.io/categories/">
+    <link rel="canonical" href="https://smailovdev.github.io/docs/shortcodes/collapse/">
 
     <title>
         
-        Categories | METANIT.COM
+        Collapse | METANIT.COM
         
     </title>
 
@@ -37,9 +36,6 @@
         </div>
         
     </div>
-    <div class="feed-icons">
-            <a href="https://smailovdev.github.io/categories/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
-        </div>
     </nav>
 <div class="container">
             <div class="row">
@@ -57,7 +53,7 @@
         
 
          <ul class="navbar-nav flex-column pt-3">
-    <li data-nav-id="/docs/" class="nav-item my-1 haschildren
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
         ">
         
         
@@ -96,7 +92,7 @@
           <a class="nav-link p-0" href="/docs/configuration/"><h6>Configuration</h6></a>
         
     </li>
-    <li data-nav-id="/docs/shortcodes/" class="nav-item my-1 haschildren
+    <li data-nav-id="/docs/shortcodes/" class="nav-item my-1 parent haschildren
         ">
         
         
@@ -135,7 +131,7 @@
                   </a>
                 
         </li>
-        <li data-nav-id="/docs/shortcodes/collapse/" class="nav-item my-1">
+        <li data-nav-id="/docs/shortcodes/collapse/" class="nav-item my-1 active">
                 
                 
                   <a href="/docs/shortcodes/collapse/" class="nav-link p-0">
@@ -186,14 +182,22 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#parameters">Parameters</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
 <div class="d-flex flex-column">
-    <h1 class="js-title">Categories</h1>
+    <h1 class="js-title">Collapse</h1>
     <div class="d-flex align-items-center">
         
     </div>
@@ -202,6 +206,64 @@
 <hr>
 
 
+<p>Feel like hiding some content from your visitor in a collapsible element? The collapse shortcode does exactly that. It creates a button that shows or hides the content in the shortcode on request.</p>
+
+
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse_1d43aba8d4" aria-expanded="false">
+    Click me to show content
+</button>
+
+<div class="collapse" id="collapse_1d43aba8d4">
+  <div class="card card-body">
+    
+Hi there, I'm the hidden content. Didn't see that one coming, huh?
+
+  </div>
+</div>
+<h2 id="usage">Usage</h2>
+<p>Simply place the following shortcode on the page
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_4a21d4bd23">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_4a21d4bd23">
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse_0a5b7eaf6a" aria-expanded="false">
+    TITLE
+</button>
+
+<div class="collapse" id="collapse_0a5b7eaf6a">
+  <div class="card card-body">
+     [content] 
+  </div>
+</div>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+
+
+</p>
+<h3 id="parameters">Parameters</h3>
+<h4 id="title"><em>title</em></h4>
+<p>The lang parameter defines the text to show in the button that toggles the collapse content.
+Example: <!-- raw HTML omitted -->title=&ldquo;Click me to show content&rdquo;<!-- raw HTML omitted -->.</p>
 
 
     
@@ -213,7 +275,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/" title="Ace documentation">Ace documentation<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/shortcodes/code/" title="Code"><i class="fas fa-chevron-left p-1"></i>Code</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/shortcodes/doublecode/" title="Doublecode">Doublecode<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

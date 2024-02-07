@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="alternate" type="application/rss+xml" href="https://smailovdev.github.io/categories/index.xml" title="METANIT.COM" />
-    <link rel="canonical" href="https://smailovdev.github.io/categories/">
+    <link rel="alternate" type="application/rss+xml" href="https://smailovdev.github.io/docs/configuration/index.xml" title="METANIT.COM" />
+    <link rel="canonical" href="https://smailovdev.github.io/docs/configuration/">
 
     <title>
         
-        Categories | METANIT.COM
+        Configuration | METANIT.COM
         
     </title>
 
@@ -38,7 +38,7 @@
         
     </div>
     <div class="feed-icons">
-            <a href="https://smailovdev.github.io/categories/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
+            <a href="https://smailovdev.github.io/docs/configuration/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
         </div>
     </nav>
 <div class="container">
@@ -57,7 +57,7 @@
         
 
          <ul class="navbar-nav flex-column pt-3">
-    <li data-nav-id="/docs/" class="nav-item my-1 haschildren
+    <li data-nav-id="/docs/" class="nav-item my-1 parent haschildren
         ">
         
         
@@ -89,7 +89,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/docs/configuration/" class="nav-item my-1
+    <li data-nav-id="/docs/configuration/" class="nav-item my-1 active
         ">
         
         
@@ -186,14 +186,24 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#page-ordering">Page ordering</a></li>
+    <li><a href="#table-of-contents">Table of contents</a></li>
+    <li><a href="#logo">Logo</a></li>
+    <li><a href="#google-analytics">Google Analytics</a></li>
+    <li><a href="#read-more-navigation">Read more navigation</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#custom-css">Custom CSS</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
 <div class="d-flex flex-column">
-    <h1 class="js-title">Categories</h1>
+    <h1 class="js-title">Configuration</h1>
     <div class="d-flex align-items-center">
         
     </div>
@@ -202,7 +212,116 @@
 <hr>
 
 
+<p class="lead">
+    Customize and tweak Ace using a number of configuration options.
+</p>
 
+<h2 id="page-ordering">Page ordering</h2>
+<p>By default, pages are sorted on the weight assigned to them in their <!-- raw HTML omitted -->frontmatter<!-- raw HTML omitted -->. This is set in <!-- raw HTML omitted -->config.toml<!-- raw HTML omitted -->, using <!-- raw HTML omitted -->orderSectionsby = &ldquo;weight&rdquo;<!-- raw HTML omitted -->. Change this to <!-- raw HTML omitted -->&ldquo;title&rdquo;<!-- raw HTML omitted --> to sort pages alphabetically based on their title instead. Alternatively, do not assign a weight to any pages and it will also sort them alphabetically on their title.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<p>By default, a table of contents (ToC) is generated for each page in the right side menu. This can be disabled using:</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_ca41bc6831">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_ca41bc6831">
+    <pre tabindex="0"><code class="language-<nil>" data-lang="<nil>">
+toc = false
+</code></pre>
+    </div>
+</div>
+
+
+
+
+<p>in the <!-- raw HTML omitted -->config.toml<!-- raw HTML omitted --> or the <!-- raw HTML omitted -->frontmatter<!-- raw HTML omitted --> (a page&rsquo;s markdown file) for a page-wide or page-specific disabling of the ToC respectively.</p>
+<h2 id="logo">Logo</h2>
+<p>An optional site logo can be specified:</p>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_dfa3e3c6df">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_dfa3e3c6df">
+    <pre tabindex="0"><code class="language-<nil>" data-lang="<nil>">
+site_logo = /logo.svg
+</code></pre>
+    </div>
+</div>
+
+
+
+
+<h2 id="google-analytics">Google Analytics</h2>
+<p>Enable Google Analytics by adding your GA tracking ID to the <!-- raw HTML omitted -->config.toml<!-- raw HTML omitted --> file, at:
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_37828bd67b">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_37828bd67b">
+    <pre tabindex="0"><code class="language-<nil>" data-lang="<nil>">
+googleAnalytics = &#34;XX-XXXXXXXXX-X&#34;
+</code></pre>
+    </div>
+</div>
+
+
+
+
+Where <!-- raw HTML omitted -->XX-XXXXXXXXX-X<!-- raw HTML omitted --> is your tracking ID.</p>
+<h2 id="read-more-navigation">Read more navigation</h2>
+<p>In <!-- raw HTML omitted -->config.toml<!-- raw HTML omitted --> or a page&rsquo;s <!-- raw HTML omitted -->frontmatter<!-- raw HTML omitted -->, set <!-- raw HTML omitted -->disableReadmoreNav = true<!-- raw HTML omitted --> to disable the prev/next buttons at the bottom of every page.</p>
+<h2 id="search">Search</h2>
+<p>Disable search by setting <!-- raw HTML omitted -->disableSearch = true<!-- raw HTML omitted --> in <!-- raw HTML omitted -->config.toml<!-- raw HTML omitted -->.</p>
+<p>The local search feature is based on the content of <code>index.json</code>, which is generated based on a configurable template.
+Search results are presented as a drop-down list attached to the search input field while typing.</p>
+<h2 id="custom-css">Custom CSS</h2>
+<p>You can override the built-in css by using your own. Just put your own css files in the <code>static</code> directory of your website (the one in the theme directory also works but is not recommended) and modify the <code>custom_css</code> parameter in your config file. The path referenced in the parameter should be relative to the <code>static</code> folder. These css files will be added through the <code>header</code> partial after the built-in css file.</p>
+<p>For example, if your css files are <code>static/css/custom.css</code> and <code>static/css/custom2.css</code> then add the following to the config file:</p>
+<pre tabindex="0"><code>    [params]
+      custom_css = [&#34;css/custom.css&#34;,&#34;css/custom2.css&#34;]
+</code></pre>
 
     
 
@@ -213,7 +332,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/" title="Ace documentation">Ace documentation<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/docs/getting-started/usage/" title="Usage"><i class="fas fa-chevron-left p-1"></i>Usage</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/docs/shortcodes/" title="Shortcodes">Shortcodes<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

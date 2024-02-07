@@ -2,33 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://smailovdev.github.io/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/shortcodes/alerts/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/getting-started/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/posts/post-3/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/getting-started/installation/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/shortcodes/buttons/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/tags/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/configuration/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/getting-started/usage/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/shortcodes/childpages/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/shortcodes/</loc>
   </url><url>
-    <loc>https://smailovdev.github.io/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <loc>https://smailovdev.github.io/docs/shortcodes/code/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/shortcodes/collapse/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/shortcodes/doublecode/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/shortcodes/lead/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/shortcodes/panel/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/</loc>
   </url><url>
     <loc>https://smailovdev.github.io/categories/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/docs/shortcodes/table/</loc>
+  </url><url>
+    <loc>https://smailovdev.github.io/tags/</loc>
   </url>
 </urlset>
