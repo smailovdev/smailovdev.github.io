@@ -6,6 +6,91 @@
     <description>Recent content in Глава 2. Элементы в HTML5 on METANIT.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
+    <lastBuildDate>Wed, 07 Feb 2024 18:02:36 +0600</lastBuildDate>
     <atom:link href="https://smailovdev.github.io/elements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Элемент head и метаданные веб-страницы</title>
+      <link>https://smailovdev.github.io/elements/1/</link>
+      <pubDate>Wed, 07 Feb 2024 17:47:49 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Элементы группировки</title>
+      <link>https://smailovdev.github.io/elements/2/</link>
+      <pubDate>Wed, 07 Feb 2024 17:48:58 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Заголовки</title>
+      <link>https://smailovdev.github.io/elements/3/</link>
+      <pubDate>Wed, 07 Feb 2024 17:49:01 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Форматирование текста</title>
+      <link>https://smailovdev.github.io/elements/4/</link>
+      <pubDate>Wed, 07 Feb 2024 17:49:03 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Работа с изображениями</title>
+      <link>https://smailovdev.github.io/elements/5/</link>
+      <pubDate>Wed, 07 Feb 2024 17:54:18 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Списки</title>
+      <link>https://smailovdev.github.io/elements/6/</link>
+      <pubDate>Wed, 07 Feb 2024 17:54:21 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Элемент details</title>
+      <link>https://smailovdev.github.io/elements/7/</link>
+      <pubDate>Wed, 07 Feb 2024 17:54:23 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Список определений</title>
+      <link>https://smailovdev.github.io/elements/8/</link>
+      <pubDate>Wed, 07 Feb 2024 17:54:26 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Таблицы</title>
+      <link>https://smailovdev.github.io/elements/9/</link>
+      <pubDate>Wed, 07 Feb 2024 17:55:58 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ссылки</title>
+      <link>https://smailovdev.github.io/elements/10/</link>
+      <pubDate>Wed, 07 Feb 2024 17:56:01 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Элементы figure и figcaption</title>
+      <link>https://smailovdev.github.io/elements/11/</link>
+      <pubDate>Wed, 07 Feb 2024 17:56:04 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Фреймы</title>
+      <link>https://smailovdev.github.io/elements/12/</link>
+      <pubDate>Wed, 07 Feb 2024 18:02:36 +0600</pubDate>
+      <guid>https://smailovdev.github.io/elements/12/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

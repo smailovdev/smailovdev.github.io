@@ -6,6 +6,28 @@
     <description>Recent content in Глава 1. Введение в HTML5 on METANIT.COM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
+    <lastBuildDate>Wed, 07 Feb 2024 17:49:03 +0600</lastBuildDate>
     <atom:link href="https://smailovdev.github.io/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Элементы и атрибуты</title>
+      <link>https://smailovdev.github.io/intro/2/</link>
+      <pubDate>Wed, 07 Feb 2024 17:48:58 +0600</pubDate>
+      <guid>https://smailovdev.github.io/intro/2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Создание документа</title>
+      <link>https://smailovdev.github.io/intro/3/</link>
+      <pubDate>Wed, 07 Feb 2024 17:49:01 +0600</pubDate>
+      <guid>https://smailovdev.github.io/intro/3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Разновидности синтаксиса</title>
+      <link>https://smailovdev.github.io/intro/4/</link>
+      <pubDate>Wed, 07 Feb 2024 17:49:03 +0600</pubDate>
+      <guid>https://smailovdev.github.io/intro/4/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
