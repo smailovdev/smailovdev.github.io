@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="canonical" href="https://smailovdev.github.io/elements/12/">
+    <link rel="canonical" href="https://smailovdev.github.io/intro/1/">
 
     <title>
         
-        Фреймы | METANIT.COM
+        Что такое HTML | METANIT.COM
         
     </title>
 
@@ -53,14 +53,14 @@
         
 
          <ul class="navbar-nav flex-column pt-3">
-    <li data-nav-id="/intro/" class="nav-item my-1 haschildren
+    <li data-nav-id="/intro/" class="nav-item my-1 parent haschildren
         ">
         
         
           <a class="nav-link p-0" href="/intro/"><h6>Глава 1. Введение в HTML5</h6></a>
         
         <ul class="list-unstyled ml-2">
-        <li data-nav-id="/intro/1/" class="nav-item my-1">
+        <li data-nav-id="/intro/1/" class="nav-item my-1 active">
                 
                 
                   <a href="/intro/1/" class="nav-link p-0">
@@ -94,7 +94,7 @@
         </li>
         </ul>
     </li>
-    <li data-nav-id="/elements/" class="nav-item my-1 parent haschildren
+    <li data-nav-id="/elements/" class="nav-item my-1 haschildren
         ">
         
         
@@ -189,7 +189,7 @@
                   </a>
                 
         </li>
-        <li data-nav-id="/elements/12/" class="nav-item my-1 active">
+        <li data-nav-id="/elements/12/" class="nav-item my-1">
                 
                 
                   <a href="/elements/12/" class="nav-link p-0">
@@ -206,14 +206,22 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#элемент-head-и-метаданные-веб-страницы">Элемент head и метаданные веб-страницы</a>
+      <ul>
+        <li><a href="#заголовок">Заголовок</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
 
 <div class="d-flex flex-column">
-    <h1 class="js-title">Фреймы</h1>
+    <h1 class="js-title">Что такое HTML</h1>
     <div class="d-flex align-items-center">
         
     </div>
@@ -222,6 +230,23 @@
 <hr>
 
 
+<p>Основная часть документа html, фактически все, что мы увидим в своем браузере при загрузке веб-страницы, располагается между тегами <strong><!-- raw HTML omitted --></strong> и <strong><!-- raw HTML omitted --></strong>. Здесь размещаются большинство элементов html.</p>
+<p>Хотя большинство элементов в HTML5 остаются теми же, что и в ранних версиях, но несколько изменился способ их использования. Рассмотрим базовые элементы HTML5, их предназначение и использование.</p>
+<h2 id="элемент-head-и-метаданные-веб-страницы">Элемент head и метаданные веб-страницы</h2>
+<p>Как правило, одним из первых элементов html-документа является элемент <strong>head</strong>, задача которого состоит в установке метаданных страницы и ряда сопроводительной информации. Метаданные содержат информацию о html-документе.</p>
+<h3 id="заголовок">Заголовок</h3>
+<p>Для установки заголовка документа, который отображается на вкладке браузера, используется элемент <strong>title</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">title</span>&gt;Элемент title&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">p</span>&gt;Содержание документа HTML5&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><p><img src="https://metanit.com/web/html5/pics/1.5.png" alt="Заголовок в html"></p>
 
 
     
@@ -231,8 +256,8 @@
                     <div class="row"><div class="position-relative mx-auto col-lg-12">
                           <div class="bg-light overflow-hidden p-3 mt-5">
 
-    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block" href="/elements/11/" title="Элементы figure и figcaption"><i class="fas fa-chevron-left p-1"></i>Элементы figure и figcaption</a>
-        <a class="p-1 ml-3 d-inline-block text-right" href="/elements/1/" title="Элемент head и метаданные веб-страницы">Элемент head и метаданные веб-страницы<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block" href="/intro/" title="Глава 1. Введение в HTML5"><i class="fas fa-chevron-left p-1"></i>Глава 1. Введение в HTML5</a>
+        <a class="p-1 ml-3 d-inline-block text-right" href="/intro/2/" title="Элементы и атрибуты">Элементы и атрибуты<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 

@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 07 Feb 2024 18:02:36 +0600</lastBuildDate>
     <atom:link href="https://smailovdev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Что такое HTML</title>
+      <link>https://smailovdev.github.io/intro/1/</link>
+      <pubDate>Wed, 07 Feb 2024 17:47:49 +0600</pubDate>
+      <guid>https://smailovdev.github.io/intro/1/</guid>
+      <description>Основная часть документа html, фактически все, что мы увидим в своем браузере при загрузке веб-страницы, располагается между тегами и . Здесь размещаются большинство элементов html.&#xA;Хотя большинство элементов в HTML5 остаются теми же, что и в ранних версиях, но несколько изменился способ их использования. Рассмотрим базовые элементы HTML5, их предназначение и использование.&#xA;Элемент head и метаданные веб-страницы Как правило, одним из первых элементов html-документа является элемент head, задача которого состоит в установке метаданных страницы и ряда сопроводительной информации.</description>
+    </item>
+    <item>
       <title>Элемент head и метаданные веб-страницы</title>
       <link>https://smailovdev.github.io/elements/1/</link>
       <pubDate>Wed, 07 Feb 2024 17:47:49 +0600</pubDate>
